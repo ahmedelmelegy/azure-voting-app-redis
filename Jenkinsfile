@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools {
-        'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
-    }
+//     tools {
+//         'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
+//     }
     stages {
         stage('Verify Branch') {
             steps {
