@@ -24,7 +24,7 @@ pipeline {
             sh(script: """
                docker-compose up --build -d
                chmod +x ./scripts/test_container.sh
-               ./scripts/test_container.ps1
+               ./scripts/test_container.sh
             """)
          }
          post {
