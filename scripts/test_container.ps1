@@ -1,4 +1,4 @@
-$count = 0
+$count=0
 do {
     $count++
     Write-Output "[$env:STAGE_NAME] Starting container [Attempt: $count]"
